@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <defs>
+    <style>
+      .bg{fill:#101820}.card{fill:#182833;stroke:#42d6a4;stroke-width:2;rx:14}.muted{fill:#a9bac4;font:16px 'DejaVu Sans',Arial,sans-serif}.title{fill:#f0f6f8;font:700 27px 'DejaVu Sans',Arial,sans-serif}.head{fill:#eaf8f4;font:700 18px 'DejaVu Sans',Arial,sans-serif}.body{fill:#d0dde3;font:15px 'DejaVu Sans',Arial,sans-serif}.arrow{stroke:#42d6a4;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect class="bg" width="1000" height="520" rx="18"/>
+  <text x="500" y="52" text-anchor="middle" class="title">MSH — Current Implementation</text>
+  <text x="500" y="82" text-anchor="middle" class="muted">C++20 · Linux · small foundation, built incrementally</text>
+  <rect class="card" x="300" y="115" width="400" height="82"/>
+  <text class="head" x="500" y="146" text-anchor="middle">Interactive loop</text>
+  <text class="body" x="500" y="174" text-anchor="middle">Print prompt · read input · handle EOF</text>
+  <path class="arrow" d="M500 197 V225"/><path class="arrow" d="M492 217 L500 225 L508 217"/>
+  <rect class="card" x="300" y="230" width="400" height="100"/>
+  <text class="head" x="500" y="262" text-anchor="middle">Bounded line reader</text>
+  <text class="body" x="500" y="288" text-anchor="middle">Maximum 4096 characters</text>
+  <text class="body" x="500" y="310" text-anchor="middle">Overlong lines are discarded · no unbounded getline</text>
+  <path class="arrow" d="M500 330 V358"/><path class="arrow" d="M492 350 L500 358 L508 350"/>
+  <rect class="card" x="300" y="363" width="400" height="90"/>
+  <text class="head" x="500" y="395" text-anchor="middle">Current command handling</text>
+  <text class="body" x="500" y="423" text-anchor="middle">Ignore empty input · recognize exit</text>
+  <text class="body" x="500" y="443" text-anchor="middle">Placeholder for future command processing</text>
+  <text x="500" y="488" text-anchor="middle" class="muted">No command execution, parser, pipes, or job control yet — intentionally.</text>
+</svg>

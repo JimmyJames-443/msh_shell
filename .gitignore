@@ -1,0 +1,11 @@
+/msh
+*.o
+*.a
+*.so
+*.out
+/build/
+.cache/
+.vscode/
+.idea/
+core
+core.*

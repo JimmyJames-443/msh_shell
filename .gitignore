@@ -9,3 +9,5 @@
 .idea/
 core
 core.*
+msh.exe
+lexer_test.exe

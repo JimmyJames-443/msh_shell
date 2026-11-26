@@ -8,7 +8,7 @@ LDFLAGS :=
 
 all: $(TARGET)
 
-$(TARGET): src/main.cpp
+$(TARGET): src/main.cpp src/lexer.cpp
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $< -o $@ $(LDFLAGS)
 
 debug:
